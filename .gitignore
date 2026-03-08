@@ -1,0 +1,12 @@
+# CMake build directories
+build/
+cmake-build-*/
+out/
+.cache/
+
+# IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo
+

@@ -1,0 +1,8 @@
+{
+    "port": 6379,
+    "max_memory": 1073741824,
+    "thread_pool_size": 4,
+    "snapshot_interval": 300,
+    "aof_file_path": "appendonly.aof",
+    "rdb_file_path": "dump.rdb"
+}
