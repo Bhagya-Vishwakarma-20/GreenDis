@@ -1,0 +1,14 @@
+# Ignore local/build artifacts so Docker does not copy stale CMake cache
+.git
+.gitignore
+build
+**/build
+**/CMakeCache.txt
+**/CMakeFiles
+**/_deps
+**/*.o
+**/*.obj
+**/*.a
+**/*.so
+**/*.dll
+**/*.exe
